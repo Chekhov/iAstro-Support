@@ -1,5 +1,5 @@
 from math import *
-import CATlib
+from . import CATlib
 
 F_0 = 2.18*pow(10,-3) #erg/cm^2 from the BATSE Catalogue
 

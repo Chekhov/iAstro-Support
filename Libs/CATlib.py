@@ -1,5 +1,6 @@
 import csv
-import GRBlib
+from . import GRBlib
+
 # TODO Update the program to read all kinds of catalogues in csv comma separated files and identify the columns
 # Reflection: is it possible to write a data-agnostic catalogue class? 
 

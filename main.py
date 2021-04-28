@@ -4,7 +4,7 @@ import Libs.STATlib as STATlib
 import Libs.DISPlip as DISPlip
 import Libs.GRBlib as GRBlib
 
-cat = CATlib.BATSE_catalog("grbfermi.csv")
+cat = CATlib.BATSE_catalog("Catalogues/grbfermi.csv")
 
 MDPs = MDPlib.MDP_from_catalogue(cat)
 
