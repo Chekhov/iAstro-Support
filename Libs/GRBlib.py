@@ -37,6 +37,7 @@ class GRB:
         #We will use EL as Energy Level, being 3 or 4 depending if you want to calculate in the 100-300keV or >300keV energy ranges
         MDP_w = 0
         S = 0.9*self.fluence*self.flux/F_0
+        # Following Alexey's method
         for k in DEFINITION_MODFACTOR.keys():
             u100 = DEFINITION_MODFACTOR[k]
             B = self.T90*DEFINITION_BGRATE[k]
